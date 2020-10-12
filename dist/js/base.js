@@ -1,0 +1,1 @@
+"use strict";var x=100,y=200;gulp.task("copy",function(s){gulp.src("./src/images/*").pipe(gulp.dest("dist/images")),gulp.src("./src/lib/*").pipe(gulp.dest("dist/lib")),s()});
